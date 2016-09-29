@@ -25,6 +25,10 @@ html, body {
     padding: 25px 16px 25px 40px;
 }
 
+.title-row h3 {
+  line-height: normal;
+}
+
 .mdl-demo .mdl-layout.is-small-screen .title-row {
   padding: 10px 10px 10px 25px;
 }
