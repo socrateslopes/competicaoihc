@@ -249,6 +249,21 @@ html, body {
   z-index: 99;
 }
 
+.section--footer.mdl-color--white.mdl-grid>div {
+  display: inherit;
+  width: -moz-calc(50% - 18px);
+  width: -webkit-calc(50% - 18px);
+  width: -o-calc(50% - 18px);
+  width: calc(50% - 18px);
+}
+
+@media screen and (max-width: 840px){
+  .section--footer.mdl-color--white.mdl-grid>div {
+      display: inherit;
+      width: 100%;
+      }
+}
+
 @media screen and (max-width: 585px){
   .fw {
   width: 100% !important
